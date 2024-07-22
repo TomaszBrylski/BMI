@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #292929;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 25px;
+  max-width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fieldset {
+  border: 1.5px solid #5c5c5c;
+}
+
+.js-form {
+  width: 100%;
+  padding: 0 20px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.button {
+  border: 1.5px solid #292929;
+  width: 200px;
+  background-color: hsla(172, 66%, 73%, 0.925);
+}
+
+.button:hover {
+  background-color: hsl(172, 66%, 80%, 0.925);
+}
+
+.bmi {
+  font-size: 25px;
+  max-width: 300px;
+  background: #fff;
+}
