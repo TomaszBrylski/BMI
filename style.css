@@ -23,13 +23,23 @@ html {
 
 .title {
   font-size: 25px;
-  max-width: 300px;
-  text-align: center;
   font-weight: bold;
+}
+
+.legend {
+  font-weight: bold;
+}
+
+.details {
+ font-weight: bold; 
 }
 
 .fieldset {
   border: 1.5px solid #5c5c5c;
+}
+
+.height {
+  font-weight: bold;
 }
 
 .js-form {
@@ -51,6 +61,5 @@ html {
 
 .bmi {
   font-size: 25px;
-  max-width: 300px;
-  background: #fff;
+  margin: 40px;
 }
