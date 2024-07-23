@@ -21,17 +21,12 @@ html {
   text-align: center;
 }
 
-.title {
-  font-size: 25px;
-  font-weight: bold;
-}
-
 .legend {
   font-weight: bold;
 }
 
 .details {
- font-weight: bold; 
+  font-weight: bold;
 }
 
 .fieldset {
@@ -42,11 +37,29 @@ html {
   font-weight: bold;
 }
 
+.weight {
+  font-weight: bold;
+}
+
 .js-form {
   width: 100%;
   padding: 0 20px;
   max-width: 850px;
   margin: 0 auto;
+}
+
+.js-height {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.js-weight {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
 }
 
 .button {
@@ -62,4 +75,8 @@ html {
 .bmi {
   font-size: 25px;
   margin: 40px;
+}
+
+.header {
+  margin-top: 30px;
 }
