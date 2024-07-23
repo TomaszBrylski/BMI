@@ -15,47 +15,106 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="table.css" />
   </head>
   <body class="body">
     <div class="container">
-    <p class="title">Conventer BMI</p>
-    <form class="js-form">
+      <h1>Body Mass Index (BMI) Calculation</h1>
+      <p class="header">
+        The BMI (Body Mass Index) is an indicator used to assess whether a
+        person's body weight is appropriate for their height. BMI is calculated
+        by dividing the body weight in kilograms by the square of the height in
+        meters. The formula for BMI is as follows:
+      </p>
+      <p>
+        <strong
+          >BMI = <sup>weight (kg)</sup> /
+          <sub>(height (m))<sup>2</sup></sub></strong
+        >
+      </p>
+      <h2>Example Calculation</h2>
+      <p>
+        For example, for a person weighing 70 kg and with a height of 1.75
+        meters, the BMI would be:
+      </p>
+      <p>
+        <strong
+          >BMI = <sup>70</sup> / <sub>(1.75)<sup>2</sup></sub> = <sup>70</sup> /
+          <sub>3.0625</sub> ≈ 22.86</strong
+        >
+      </p>
+
+      <form class="js-form">
         <fieldset class="fieldset">
-            <legend>Data</legend>
-            <p>
-                <label>
-                    Height : <input class="js-height" required type="number" min="1" step="any">
-                </label>
-            </p>
-            <p>
-                <label>
-                    Weight: <input class="js-weight" required type="number" min="1" step="any">
-                </label>
-            </p>
+          <legend class="legend">Data</legend>
+          <p class="details">Provide your details:</p>
+          <p>
+            <label class="height">
+              Height :
+              <input
+                class="js-height"
+                required
+                type="number"
+                min="1"
+                step="any"
+              />
+            </label>
+          </p>
+          <p>
+            <label class="weight">
+              Weight:
+              <input
+                class="js-weight"
+                required
+                type="number"
+                min="1"
+                step="any"
+              />
+            </label>
+          </p>
         </fieldset>
         <p>
-        <button class="button">BMI</button>
+          <button class="button">BMI</button>
         </p>
-    </form>
-    <p class="bmi"> Your BMI: <strong class="js-bmi">N/A </strong></p>
-    <table class="table">
-      <caption class="tableCapition">BODY MASS INDEX</caption>
-      <tr>
-        <th class="tableCell tableUnder" scope="col"> 18,5 </th>
-        <td class="tableCell tableNormal" scope="col">18,5 - 24,9</td>
-        <td class="tableCell tableOver" scope="col">25 - 29,9</td>
-        <td class="tableCell tableObsity" scope="col">30-39,9</td>
-      </tr>
-      <tr>
-        <th class="tableCell tableUnderWeight" scope="row">Underweight</th>
-        <td class="tableCell tableNormalWeight">Normal weight</td>
-        <td class="tableCell tableOverWeight">Overweight</td>
-        <td class="tableCell tableObsityWeight">Obesity</td>
-      </tr>
-    </table>
-  </div>
+      </form>
+      <p class="bmi">Your BMI: <strong class="js-bmi">N/A </strong></p>
+      <table class="table">
+        <caption class="tableCapition">
+          BODY MASS INDEX
+        </caption>
+        <p>
+          BMI is used to determine whether a person has a healthy body weight,
+          is underweight, overweight, or obese. The BMI categories are generally
+          as follows:
+        </p>
+        <tr>
+          <th class="tableCell tableUnder" scope="col">18,5</th>
+          <td class="tableCell tableNormal" scope="col">18,5 - 24,9</td>
+          <td class="tableCell tableOver" scope="col">25 - 29,9</td>
+          <td class="tableCell tableObsity" scope="col">30-39,9</td>
+        </tr>
+        <tr>
+          <th class="tableCell tableUnderWeight" scope="row">Underweight</th>
+          <td class="tableCell tableNormalWeight">Normal weight</td>
+          <td class="tableCell tableOverWeight">Overweight</td>
+          <td class="tableCell tableObsityWeight">Obesity</td>
+        </tr>
+      </table>
+      <p class="header">
+        BMI is widely used as a simple indicator because it is easy to calculate
+        and does not require specialized equipment. It is used by doctors,
+        dietitians, and public health organizations to quickly assess
+        weight-related health risks, such as heart disease, type 2 diabetes, and
+        certain cancers.
+      </p>
+      <p class="header">
+        However, it is important to remember that BMI does not take into account
+        various factors such as fat distribution, muscle mass, age, sex, or
+        overall health condition. Therefore, while BMI is a useful indicator, it
+        should be used in conjunction with other methods of health assessment.
+      </p>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
