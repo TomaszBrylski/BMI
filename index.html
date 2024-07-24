@@ -49,7 +49,15 @@
         <fieldset class="fieldset">
           <legend class="legend">Data</legend>
           <p class="details">Provide your details:</p>
-          <p>
+          <div class="radio-group">
+            <label>
+              <input class="man" type="radio" name="radio" value="Man" /> Man
+            </label>
+            <label>
+              <input type="radio" name="radio" value="Women" /> Women
+            </label>
+          </div>
+          <div>
             <label class="height">
               Height :
               <input
@@ -60,8 +68,8 @@
                 step="any"
               />
             </label>
-          </p>
-          <p>
+          </div>
+          <div>
             <label class="weight">
               Weight:
               <input
@@ -72,11 +80,11 @@
                 step="any"
               />
             </label>
-          </p>
+          </div>
         </fieldset>
-        <p>
-          <button class="button">BMI</button>
-        </p>
+        <div>
+          <button class="button" type="submit">BMI</button>
+        </div>
       </form>
       <p class="bmi">Your BMI: <strong class="js-bmi">N/A </strong></p>
       <table class="table">
