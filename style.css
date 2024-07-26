@@ -31,24 +31,16 @@ html {
 
 .fieldset {
   border: 1.5px solid #5c5c5c;
-}
+} 
 
-.height {
-  font-weight: bold;
-}
-
-.weight {
-  font-weight: bold;
-}
-
-.js-form {
+.form {
   width: 100%;
   padding: 0 20px;
   max-width: 850px;
   margin: 0 auto;
 }
 
-.js-height {
+.height {
   margin: 20px;
   border: 1px solid #ccc;
   padding: 10px;
@@ -56,7 +48,8 @@ html {
   max-width: 300px;
 }
 
-.js-weight {
+.weight {
+  margin: 20px;
   border: 1px solid #ccc;
   padding: 10px;
   width: 100%;
