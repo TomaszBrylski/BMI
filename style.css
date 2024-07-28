@@ -14,59 +14,6 @@ html {
   color: #131217;
 }
 
-.container {
-  padding: 0 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.legend {
-  font-weight: bold;
-}
-
-.details {
-  font-weight: bold;
-}
-
-.fieldset {
-  border: 1.5px solid #5c5c5c;
-} 
-
-.form {
-  width: 100%;
-  padding: 0 20px;
-  max-width: 850px;
-  margin: 0 auto;
-}
-
-.height {
-  margin: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 100%;
-  max-width: 300px;
-}
-
-.weight {
-  margin: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 100%;
-  max-width: 300px;
-}
-
-.button {
-  margin-top: 20px;
-  border: 1.5px solid #292929;
-  width: 200px;
-  background-color: hsla(172, 66%, 73%, 0.925);
-}
-
-.button:hover {
-  background-color: hsl(172, 66%, 80%, 0.925);
-}
-
 .bmi {
   font-size: 25px;
   margin: 40px;
@@ -74,11 +21,4 @@ html {
 
 .header {
   margin: 30px;
-}
-
-.radio-group label {
-  margin-right: 20px; /* Adds space to the right of the first label */
-}
-.radio-group label:last-child {
-  margin-right: 0; /* Removes the space to the right of the last label */
 }
