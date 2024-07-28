@@ -1,0 +1,52 @@
+.form {
+  width: 100%;
+  padding: 0 20px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.fieldset {
+  border: 1.5px solid #5c5c5c;
+}
+
+.legend {
+  font-weight: bold;
+}
+
+.details {
+  font-weight: bold;
+}
+
+.radio-group label {
+  margin-right: 20px; /* Adds space to the right of the first label */
+}
+.radio-group label:last-child {
+  margin-right: 0; /* Removes the space to the right of the last label */
+}
+
+.formHeight {
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.formWeight {
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.formButton {
+  margin-top: 20px;
+  border: 1.5px solid #292929;
+  width: 200px;
+  background-color: hsla(172, 66%, 73%, 0.925);
+}
+
+.formButton:hover {
+  background-color: hsl(172, 66%, 80%, 0.925);
+}
