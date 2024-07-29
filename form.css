@@ -7,6 +7,7 @@
 
 .fieldset {
   border: 1.5px solid #5c5c5c;
+  margin-bottom: 20px;
 }
 
 .legend {
@@ -40,13 +41,7 @@
   max-width: 300px;
 }
 
-.formButton {
-  margin-top: 20px;
-  border: 1.5px solid #292929;
-  width: 200px;
-  background-color: hsla(172, 66%, 73%, 0.925);
-}
-
-.formButton:hover {
-  background-color: hsl(172, 66%, 80%, 0.925);
+.bmi {
+  font-size: 25px;
+  margin: 40px;
 }
