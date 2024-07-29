@@ -20,8 +20,9 @@
     <link rel="stylesheet" href="container.css" />
     <link rel="stylesheet" href="form.css" />
     <link rel="stylesheet" href="section.css" />
+    <link rel="stylesheet" href="button.css" />
   </head>
-  <body class="body">
+  <body>
     <div class="container">
       <h1>Body Mass Index (BMI) Calculation</h1>
       <section class="section">
@@ -86,19 +87,22 @@
           </div>
         </fieldset>
         <div>
-          <button class="formButton" type="submit">BMI</button>
+          <a href="#">
+            <i></i><i></i>
+            <button class="formButton" type="submit">BMI</button>
+          </a>
         </div>
+        <p class="bmi">Your BMI: <strong class="js-bmi">N/A </strong></p>
       </form>
-      <p class="bmi">Your BMI: <strong class="js-bmi">N/A </strong></p>
+      <section class="section">
+        BMI is used to determine whether a person has a healthy body weight, is
+        underweight, overweight, or obese. The BMI categories are generally as
+        follows:
+      </section>
       <table class="table">
         <caption class="tableCapition">
           BODY MASS INDEX
         </caption>
-        <section>
-          BMI is used to determine whether a person has a healthy body weight,
-          is underweight, overweight, or obese. The BMI categories are generally
-          as follows:
-        </section>
         <tr>
           <th class="tableCell tableUnder" scope="col">18,5</th>
           <td class="tableCell tableNormal" scope="col">18,5 - 24,9</td>
