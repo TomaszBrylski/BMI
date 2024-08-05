@@ -11,7 +11,10 @@
 }
 
 .legend {
+  font-size: 20px;
+  padding: 0 10px;
   font-weight: bold;
+  border: 1px solid #5c5c5c;
 }
 
 .details {
@@ -25,23 +28,58 @@
   margin-right: 0; /* Removes the space to the right of the last label */
 }
 
-.formHeight {
-  margin: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 100%;
-  max-width: 300px;
-}
-
-.formWeight {
-  margin: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 100%;
-  max-width: 300px;
-}
 
 .bmi {
   font-size: 25px;
   margin: 40px;
+}
+
+.formContainer {
+  width: 420px;
+  padding: 30px;
+}
+
+.formArea {
+  position: relative;
+  height: 50px;
+  line-height: 55px;
+}
+
+.formDetail {
+  position: absolute;
+  width: 100%;
+  outline: none;
+  padding-left: 20px;
+  font-size: 1.4em;
+  line-height: 50px;
+  border: 2px solid #131217;
+  background: transparent;
+  transition: 0.1s ease;
+  z-index: 1111;
+}
+
+.labelLine {
+  position: absolute;
+  font-size: 1.4em;
+  color: hsl(0, 0%, 55%);
+  padding: 0 12px;
+  margin: 0 200px;
+  background-color: white;
+  transition: 0.3s ease;
+}
+
+.formDetail:focus,
+.formDetail:valid {
+  color: teal;
+  border: 2px solid teal;
+}
+
+.formDetail:focus + .labelLine,
+.formDetail:valid + .labelLine{
+  color: teal;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 12px;
+  transform: translate(-15px,-16px) scale(0.85);
+  z-index: 1111;
 }
