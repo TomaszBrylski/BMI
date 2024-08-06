@@ -39,6 +39,10 @@
   padding: 30px;
 }
 
+input::placeholder {
+  text-align: right;
+}
+
 .formArea {
   position: relative;
   height: 50px;
