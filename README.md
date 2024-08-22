@@ -1,4 +1,4 @@
-# Body Mass Index Calculation
+# Body Mass Index Calculation 🧮
 
  Link where you can find demo >> [BMI-HOMEPAGE](https://tomaszbrylski.github.io/BMI/ "BMI Homepage") <<
 
