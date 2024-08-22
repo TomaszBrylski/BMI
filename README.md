@@ -5,7 +5,9 @@
  ## Description:
  > A page contains information on the Body Mass Index, how to calculate it, and a calculator that allows you to calculate such an index.
 
-## Technologies:
+![Index](BMI.gif)
+
+## Tech:
 
 - HTML: The structure of the document, where elements such as `<input>` and `<label>` (or similar) are styled.
 ---
