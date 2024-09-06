@@ -28,7 +28,6 @@
   margin-right: 0; /* Removes the space to the right of the last label */
 }
 
-
 .bmi {
   font-size: 25px;
   margin: 40px;
@@ -79,11 +78,11 @@ input::placeholder {
 }
 
 .formDetail:focus + .labelLine,
-.formDetail:valid + .labelLine{
+.formDetail:valid + .labelLine {
   color: teal;
   height: 30px;
   line-height: 30px;
   padding: 0 12px;
-  transform: translate(-15px,-16px) scale(0.85);
+  transform: translate(-15px, -16px) scale(0.85);
   z-index: 1111;
 }
